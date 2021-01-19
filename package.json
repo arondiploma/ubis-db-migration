@@ -1,0 +1,16 @@
+{
+  "name": "ubis-db-migration",
+  "version": "1.0.0",
+  "description": "UBIS database migrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.12",
+    "db-migrate-mysql": "^2.1.2",
+    "dotenv": "^8.2.0"
+  }
+}

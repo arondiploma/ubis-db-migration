@@ -1,0 +1,40 @@
+{
+    "sql-file" : true,
+    "defaultEnv": "dev",
+    "dev": {
+        "host": "localhost",
+        "user": {
+            "ENV": "DB_USER"
+        },
+        "password": {
+            "ENV": "DB_PASS"
+        },
+        "database": "ubis",
+        "driver": "mysql",
+        "multipleStatements": true
+    },
+    "prod": {
+        "host": "localhost",
+        "user": {
+            "ENV": "DB_USER"
+        },
+        "password": {
+            "ENV": "DB_PASS"
+        },
+        "database": "ubis",
+        "driver": "mysql",
+        "multipleStatements": true
+    },
+    "sandbox": {
+        "host": "localhost",
+        "user": {
+            "ENV": "DB_USER"
+        },
+        "password": {
+            "ENV": "DB_PASS"
+        },
+        "database": "ubis",
+        "driver": "mysql",
+        "multipleStatements": true
+    }
+}
