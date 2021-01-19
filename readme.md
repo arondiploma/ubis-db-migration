@@ -14,3 +14,7 @@ Open the file `database.json` and update the configuration. For `username` and `
 DB_USER=root
 DB_PASS=mysqladmin
 ```
+## Execute/Run Migration
+```db-migrate up:SCOPE```
+
+```db-migrate up:ubis```
